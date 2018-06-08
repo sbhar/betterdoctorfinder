@@ -1,0 +1,83 @@
+.App {
+	background-color: rgb(240, 243, 246)
+}
+
+.App-header {
+	background-color: rgb(95, 124, 162);
+	height: 200px;
+	text-align: center
+}
+
+.header-text {
+	color: #FFF;
+	font-size: 3.5em;
+}
+
+.App-title {
+	font-size: 1.5em;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.optionsContainer {
+	display: flex;
+	justify-content: left;
+	padding-bottom: 40px
+}
+
+.searchBarItem {
+	flex-basis: auto
+}
+
+.flexItem {
+	flex-basis: auto;
+}
+
+.mainContainer {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.mainItemMap {
+	justify-self: center;
+}
+
+.mainItemDoctors .ui.container {
+	width: auto;
+}
+
+.mainItemDoctors {
+	justify-self: left;
+	grid-column-start: 2;
+	grid-column-margin: 10px;
+}
+
+.ui.primary.button {
+	color: #FFF;
+	background-color: rgb(95, 124, 162);
+}
+
+.work-sans {
+	font-family: 'Work Sans', sans-serif;
+}
+
+footer {
+	padding-top: 10px;
+	background-color: rgb(240, 243, 246)
+}
+
+.ui.segment.welcomeBox {
+	height: auto;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	font-family: 'Work Sans', sans-serif;
+}
